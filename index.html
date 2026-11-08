@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="SportEvent — учебная система информационной поддержки спортивных соревнований" />
+  <title>SportEvent — управление соревнованиями</title>
+  <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">S</span><span>SPORT<span class="brand-accent">EVENT</span><small>Competition manager</small></span></div>
+      <div class="nav-caption">РАБОЧЕЕ ПРОСТРАНСТВО</div>
+      <nav class="nav" aria-label="Разделы приложения">
+        <button class="nav-link active" data-tab="events"><span>◫</span> Соревнования</button>
+        <button class="nav-link" data-tab="athletes"><span>♙</span> Участники</button>
+        <button class="nav-link" data-tab="results"><span>≡</span> Результаты</button>
+        <button class="nav-link" data-tab="about"><span>ⓘ</span> О системе</button>
+      </nav>
+      <div class="sidebar-note"><span class="online-dot"></span> Демо-режим <small>Данные хранятся в браузере</small></div>
+      <div class="side-footer">Учебный проект • 2026</div>
+    </aside>
+    <main class="main">
+      <header class="topbar"><span class="breadcrumb">Панель управления <b>/</b> <span id="crumb">Соревнования</span></span><span class="topbar-badge">● Локальная версия</span></header>
+      <div class="content">
+        <section class="intro"><div class="eyebrow">ИНФОРМАЦИОННАЯ СИСТЕМА</div><h1 id="page-title">Спортивные соревнования</h1><p id="page-description">Планируйте турниры, регистрируйте участников и отслеживайте результаты в одном месте.</p></section>
+        <div id="toast" role="status" aria-live="polite" class="toast" hidden></div>
+        <div id="app"></div>
+      </div>
+    </main>
+  </div>
+  <script type="module" src="./src/app.mjs"></script>
+</body>
+</html>
