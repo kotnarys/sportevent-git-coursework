@@ -1,0 +1,6 @@
+# Generated files
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+.coverage/
