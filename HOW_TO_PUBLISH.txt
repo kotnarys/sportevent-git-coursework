@@ -1,0 +1,15 @@
+КАК ОПУБЛИКОВАТЬ ПРОЕКТ НА GITHUB (WINDOWS)
+
+1. Войти в GitHub под учётной записью kotnarys.
+2. Открыть https://github.com/new?owner=kotnarys&name=sportevent-git-coursework&visibility=public
+3. Убедиться, что репозиторий называется sportevent-git-coursework, выбрать Public.
+4. НЕ добавлять README, .gitignore или License (репозиторий должен быть пустой).
+5. Нажать Create repository.
+6. Установить Git for Windows, если не установлен.
+7. Распаковать этот ZIP целиком с папкой .git (не копировать только файлы).
+8. Двойным кликом запустить PUBLISH_GITHUB_WINDOWS.bat. При необходимости войти в GitHub в открывшемся окне.
+9. Проверить страницу https://github.com/kotnarys/sportevent-git-coursework в браузере без авторизации.
+10. Прислать действующую ссылку в чат для замены места для неё в DOCX.
+
+В ZIP уже есть ВСЯ история Git: 6 веток, 6 коммитов, тег v1.0.0.
+Не загружайте учебную работу до проверки публичной ссылки.
